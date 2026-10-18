@@ -1,0 +1,37 @@
+{
+  "status": "Public source snapshot; verification limitations documented in README",
+  "assembled": "2026-10-18",
+  "voicestudio_commit": "3915a62cb482bb43117aaebab57d22745bd1cc21",
+  "moss_runtime_commit": "8b7bcc9341b3b4ef3a3a58ba1338a7d85ff133eb",
+  "image_digest": "sha256:b35de090f51b21fa804fc964cc45ef40df4cf1ecfbecd0c4e43c8c2ecacfd4de",
+  "model_revisions": {
+    "MOSS-TTS-Nano-100M": "44502f80dbf9743528fa921cc544d662c685ebec",
+    "MOSS-Audio-Tokenizer-Nano": "6aa02b01e445cc585582cf0ba480bc3ea6c8dd68"
+  },
+  "audioseal": "Deployed 0.2.0 verified; all 26 Python files match included source; weight manifest hashes retained in DEPLOYED-COMPARISON.txt",
+  "excluded": [
+    "customer recordings and cloned profiles",
+    "credentials and environment values",
+    "deployment account details",
+    "databases and logs",
+    "model weight binaries and tokenizer.model (download references in bootstrap.py)",
+    "installed dependency environments"
+  ],
+  "deployment_comparison": {
+    "reviewed": "2026-10-18",
+    "backend_files_matched": 430,
+    "wrapper_scripts_matched": 3,
+    "moss_text_source_files_matched": 28,
+    "model_source_config_files_matched": 16,
+    "audioseal_python_files_matched": 26,
+    "full_container_rebuild_verified": false,
+    "publication_approved": true
+  },
+  "dependency_review": {
+    "main_python_distributions": 287,
+    "source_archives": 15,
+    "notice_provenance": "dependency-source-provenance.json",
+    "complete_system_and_sidecar_audit": false
+  },
+  "publication_authorization": "Owner requested public release on 2026-10-18"
+}

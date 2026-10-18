@@ -1,0 +1,20 @@
+Estly voice-service source snapshot — 2026-10-18
+
+Copyright 2026 Estly Studio LLC.
+Estly-authored files in estly-wrapper/ and prepare-source-build.py are released
+under GNU Affero General Public License version 3 only (AGPL-3.0-only),
+without warranty. See LICENSE.
+
+Upstream VoiceStudio source retains its AGPL-3.0-only license and original
+notices. MOSS runtime/model sources, AudioSeal and other dependencies retain
+their own licenses; see their archives, model cards and licenses/. The top-level
+license does not replace third-party licenses or grant rights in model weights.
+
+This release adds Estly gateway authentication, startup supervision, CPU MOSS
+installation configuration, pinned model selection and watermark verification
+around the upstream application. Estly service changes were authored in
+October 2026. Original source filenames and bytes are preserved.
+
+Customer recordings, profiles, credentials, application databases and the
+independent customer portal are excluded. This is source, not a container
+image or model-weight distribution.
